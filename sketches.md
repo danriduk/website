@@ -1,5 +1,5 @@
 ---
-layout: p5sketch
+layout: post
 title: "p5 sketches"
 ---
 
