@@ -2,5 +2,8 @@
 layout: default
 ---
 
-<script src="{{ base.url | prepend: site.url }}/assets/js/sketches/circleParticles/sketch.js"></script>
-<script src="{{ base.url | prepend: site.url }}/assets/js/sketches/circleParticles/Particle.js"></script>
+{% for js in page.jsarr %}
+  <script type="text/javascript">
+    {% include {{ js }} %}
+  </script>
+{% endfor %}
