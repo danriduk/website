@@ -1,13 +1,9 @@
 ---
 layout: default
+dependencies:
+    - p5
 ---
 
-<div class="p5sketch">
-  
-  {% for js in page.jsarr %}
-    <script type="text/javascript">
-      {% include {{ js }} %}
-    </script>
-  {% endfor %}
-  
+<div id="sketch-holder">
+    <script type="text/javascript" src="/_sketches/sketchTest.js"></script>
 </div>
