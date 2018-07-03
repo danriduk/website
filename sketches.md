@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: p5sketch
 ---
 
 # sketches
