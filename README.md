@@ -1,6 +1,3 @@
----
-layout: page
-title: Home
----
+# Home
 
 This is a blog new site.
