@@ -1,8 +1,8 @@
 var particles = [];
 
 function setup() {
-    x = 500;
-    y = 500;
+    x = 710;
+    y = 400;
 
     canvas = createCanvas(x, y);
     canvas.parent("sketch-holder");
