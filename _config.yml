@@ -5,7 +5,7 @@ email: danriduk@gmail.com
 description:
 twitter_username:
 github_username:  danriduk
-baseurl: "/home"
+baseurl: ""
 url: ""
 
 # Build settings
