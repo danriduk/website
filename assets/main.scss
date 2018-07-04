@@ -4,6 +4,11 @@
 
 @import "minima";
 
+.img__wrap {
+  position: relative;
+  margin: 1em;
+}
+
 .post-content p img {
     display: block;
     margin: auto;
