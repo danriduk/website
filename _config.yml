@@ -2,10 +2,11 @@
 title: Dan Rigs
 author: Daniel Ridley
 email: danriduk@gmail.com
-description: 
-twitter_username: 
+description:
+twitter_username:
 github_username:  danriduk
 baseurl: "/website"
+url: ""
 
 # Build settings
 markdown: kramdown

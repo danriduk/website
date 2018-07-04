@@ -6,6 +6,7 @@ dependencies:
     - p5
 ---
 
-<div id="simple-sketch-holder">
-    <script type="text/javascript" src="p5sketch.js"></script>
+<div id="sketch-holder">
+    <script type="text/javascript" src="assets/sketches/circleParticles/Particle.js"></script>
+    <script type="text/javascript" src="assets/sketches/circleParticles/sketch.js"></script>
 </div>

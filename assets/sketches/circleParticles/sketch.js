@@ -1,10 +1,10 @@
 var particles = [];
 
 function setup() {
-  canvas = createCanvas(500, 500);
-  canvas.parent("p5-sketch-holder");
-  
-  var amount = (500+500)/2
+  canvas = createCanvas(windowHeight, windowWidth);
+  canvas.parent("sketch-holder");
+
+  var amount = (windowHeight+windowWidth)/2
 
 	for (var i = 0; i < amount; i++) {
 		particles[i] = new Particle();
@@ -23,7 +23,7 @@ function draw() {
 }
 
 function windowResized() {
-	resizeCanvas(500, 500);
+	resizeCanvas(windowHeight, windowWidth);
 	// console.log(windowWidth);
 	// console.log(windowHeight);
 }
