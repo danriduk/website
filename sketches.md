@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: p5sketch
 title:  "Simple p5 sketch"
 date:   2016-09-01
 dependencies:
