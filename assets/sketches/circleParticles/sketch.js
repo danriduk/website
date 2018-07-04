@@ -1,20 +1,23 @@
 var particles = [];
 
 function setup() {
-  canvas = createCanvas(windowHeight, windowWidth);
-  canvas.parent("sketch-holder");
+    x = 500;
+    y = 500;
 
-  var amount = (windowHeight+windowWidth)/2
+    canvas = createCanvas(x, y);
+    canvas.parent("sketch-holder");
+
+    var amount = (x+y)/2
 
 	for (var i = 0; i < amount; i++) {
-		particles[i] = new Particle();
+        particles[i] = new Particle();
 	}
 
   // console.log(amount);
 }
 
 function draw() {
-  background(55);
+    background(55);
 
 	for (var i = particles.length-1; i >=0; i--) {
 		particles[i].show();
@@ -23,7 +26,7 @@ function draw() {
 }
 
 function windowResized() {
-	resizeCanvas(windowHeight, windowWidth);
+	resizeCanvas(x, y);
 	// console.log(windowWidth);
 	// console.log(windowHeight);
 }
