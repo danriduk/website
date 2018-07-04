@@ -1,8 +1,11 @@
 ---
 layout: post
-title: "p5 sketches"
+title:  "Simple p5 sketch"
+date:   2016-09-01
+dependencies:
+    - p5
 ---
 
-## circle particles
-
-<div id="sketchTest-holder" style="height: 100px;"></div>
+<div id="simple-sketch-holder">
+    <script type="text/javascript" src="p5sketch.js"></script>
+</div>

@@ -1,7 +1,8 @@
 // sketch.js
 
 function setup() {
-  canvas = createCanvas(windowWidth, windowHeight);
-  canvas.parent('sketchTest-holder');
-  background(50, 50, 50);
+  canvas = createCanvas(710, 400);
+  canvas.parent('simple-sketch-holder');
+
+  background(50);
 }

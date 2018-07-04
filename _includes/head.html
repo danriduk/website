@@ -7,6 +7,17 @@
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
 
+  <!-- dependencies -->
+    {% include dependency.html name="flexbox" %}
+  <!-- dev-dependencies -->
+  {% if jekyll.environment == 'development' %}
+    {% include dependency.html name="live" %}
+  {% endif %}
+  <!-- custom page dependencies -->
+  {% for dependency in page.dependencies %}
+    {% include dependency.html name=dependency %}
+  {% endfor %}
+  <!-- google analytics -->
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
   {%- endif -%}
