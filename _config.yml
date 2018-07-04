@@ -5,8 +5,6 @@ email: danriduk@gmail.com
 description:
 twitter_username:
 github_username:  danriduk
-baseurl: ""
-url: ""
 
 # Build settings
 markdown: kramdown
