@@ -7,7 +7,8 @@ dependencies:
 
 # p5 sketches
 
-<div id='sketch-holder'>
-    <script  type='type/javascript' src='assets/sketches/circleParticles/Particle.js'></script>
-    <script  type='type/javascript' src='assets/sketches/circleParticles/sketch.js'></script>
+Circle Particles
+<div id="sketch-holder">
+    <script type="text/javascript" src="/assets/sketches/circleParticles/Particle.js"></script>
+    <script type="text/javascript" src="/assets/sketches/circleParticles/sketch.js"></script>
 </div>

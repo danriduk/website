@@ -5,7 +5,7 @@ function setup() {
     y = 400;
 
     canvas = createCanvas(x, y);
-    canvas.parent("sketch-holder");
+    canvas.parent('sketch-holder');
 
     var amount = (x+y)/2
 
