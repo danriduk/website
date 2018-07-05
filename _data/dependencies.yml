@@ -9,3 +9,9 @@
 
 - name: flexbox
   element: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" />
+
+- name: flexbox
+  element: <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" />
+
+- name: live
+  element: <script type="text/javascript" src="http://livejs.com/live.js"></script>
