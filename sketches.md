@@ -1,6 +1,6 @@
 ---
 layout: p5sketch
-title:  "Simple p5 sketch"
+title:  "p5js Sketches"
 date:   2016-09-01
 dependencies:
     - p5
