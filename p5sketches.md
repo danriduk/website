@@ -9,6 +9,6 @@ dependencies:
 
 Circle Particles
 <div id="sketch-holder">
-    <script type="text/javascript" src="/assets/sketches/circleParticles/Particle.js"></script>
-    <script type="text/javascript" src="/assets/sketches/circleParticles/sketch.js"></script>
+    <script type="text/javascript" src="/p5js/circleParticles/Particle.js"></script>
+    <script type="text/javascript" src="/p5js/circleParticles/sketch.js"></script>
 </div>
