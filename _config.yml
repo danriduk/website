@@ -5,6 +5,7 @@ description: ''
 # social links
 twitter_username:
 github_username:  danriduk
+baseurl: '/'
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
@@ -19,7 +20,6 @@ header_pages:
  - blog.md
  - about.md
  - p5sketches.md
-
 
 # Build settings
 theme: minima
