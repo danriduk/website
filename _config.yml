@@ -5,7 +5,7 @@ description: ''
 # social links
 twitter_username:
 github_username:  danriduk
-baseurl: '/'
+baseurl: '/website'
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
